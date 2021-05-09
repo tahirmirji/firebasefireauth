@@ -6,9 +6,8 @@ import '../utils/authentication.dart';
 import '../widgets/app_bar_title.dart';
 
 class UserInfoScreen extends StatefulWidget {
-  const UserInfoScreen({Key? key, required User user})
-      : _user = user,
-        super(key: key);
+  
+  const UserInfoScreen({Key? key, required User user}) : _user = user, super(key: key);
 
   final User _user;
 
@@ -183,7 +182,8 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
                                 _verificationEmailBeingSent = true;
                               });
                               await _user.sendEmailVerification();
-                              setState(() {
+                              setState(() 
+                              {
                                 _verificationEmailBeingSent = false;
                               });
                             },

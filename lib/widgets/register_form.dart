@@ -23,8 +23,7 @@ class RegisterForm extends StatefulWidget {
   _RegisterFormState createState() => _RegisterFormState();
 }
 
-class required {
-}
+
 
 class _RegisterFormState extends State<RegisterForm> {
   final TextEditingController _nameController = TextEditingController();
