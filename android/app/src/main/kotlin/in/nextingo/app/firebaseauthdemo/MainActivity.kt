@@ -1,4 +1,4 @@
-package in.nextingo.app.firebaseauthdemo
+package 'in.nextingo.app.firebaseauthdemo';
 
 import io.flutter.embedding.android.FlutterActivity
 
